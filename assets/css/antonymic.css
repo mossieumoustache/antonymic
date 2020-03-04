@@ -36,6 +36,10 @@ body {
 	color: transparent !important;
 }
 
+.fs-075 {
+	font-size: 0.75em;
+}
+
 .fs-125 {
 	font-size: 1.25em;
 }
@@ -86,6 +90,13 @@ body {
 .link-white:hover {
 	text-decoration: none;
 	color: white !important;
+}
+.link-purple {
+	color: #791a27 !important;
+}
+.link-purple:hover {
+	text-decoration: none;
+	color: #791a27 !important;
 }
 
 .h-05 {
@@ -140,10 +151,27 @@ body {
 	height: 10px !important;
 }
 
+.lang-antonymic {
+	position: absolute;
+	top: 20px;
+	left: 22px;
+	width: 100px;
+	z-index: 1000;
+}
+
+.speaking-antonymic {
+	position: absolute;
+	top: 22px;
+	right: 24px;
+	width: 200px;
+	z-index: 1000;
+}
+
 .logo-antonymic {
 	position: absolute;
 	margin: 0 auto;
 	top: 22px;
+	z-index: 1000;
 }
 
 .logo-prop {
@@ -160,4 +188,11 @@ body {
 	height: 72px;
 	bottom: 22px;
 	left: 22px;
+}
+
+.footer-antonymic {
+	position: absolute;
+	margin: 0 auto;
+	bottom: 32px;
+	z-index: 1000;
 }

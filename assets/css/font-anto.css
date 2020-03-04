@@ -65,4 +65,13 @@
     font-weight: 500;
     font-style: normal;
 }
-
+@font-face {
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'icomoon';
+    src:url('../fonts/icomoon/icomoon.eot?i64fx9');
+    src:url('../fonts/icomoon/icomoon.eot?#iefixi64fx9') format('embedded-opentype'),
+    url('../fonts/icomoon/icomoon.woff?i64fx9') format('woff'),
+    url('../fonts/icomoon/icomoon.ttf?i64fx9') format('truetype'),
+    url('../fonts/icomoon/icomoon.svg?i64fx9#icomoon') format('svg');
+}

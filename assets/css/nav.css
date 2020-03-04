@@ -1,3 +1,6 @@
+.typo-nav {
+    letter-spacing: 0.1em;
+}
 .nav-wrapper-parent {
   position: relative;
   height: 100%;
