@@ -1,16 +1,18 @@
 /* Morph Button: Default Styles */
+.btn-height {
+	height: 30px;
+}
 
 .morph-button {
     position: absolute;
     bottom: 22px;
-    right: -4px;
+    right: 22px;
 	display: block;
 	margin: 0 auto;
 }
 
 .morph-button > button {
 	position: relative;
-	padding: 0 1em;
 	border: none;
 	letter-spacing: 1px;
 	line-height: 20px;
@@ -32,8 +34,8 @@
 /* Common styles for overlay and modal type */
 .morph-button-fixed,
 .morph-button-fixed .morph-content {
-	width: 124px;
-	height: 20px;
+	width: 32px;
+	height: 30px;
 }
 
 .morph-button-fixed > button {
@@ -158,7 +160,6 @@
 /* Colors and sizes for individual modals */
 .morph-button.morph-button-modal-antonymic {
 	display: inline-block;
-	margin: 10px 15px;
 }
 
 .morph-button-modal-antonymic > button,
