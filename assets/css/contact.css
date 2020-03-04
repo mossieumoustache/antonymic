@@ -1,6 +1,6 @@
 /* Morph Button: Default Styles */
 .btn-height {
-	height: 30px;
+	height: 24px;
 }
 
 .morph-button {
@@ -34,8 +34,8 @@
 /* Common styles for overlay and modal type */
 .morph-button-fixed,
 .morph-button-fixed .morph-content {
-	width: 32px;
-	height: 30px;
+	width: 24px;
+	height: 24px;
 }
 
 .morph-button-fixed > button {
@@ -411,7 +411,8 @@
 .content-style-form input[type="text"] {
 	padding: 10px;
 	width: 100%;
-	border: 2px solid #999;
+	border: none;
+	border-bottom: 1px solid #999;
 	background: transparent;
 	color: #666;
 	font-weight: 300;
@@ -426,7 +427,7 @@ textarea {
 .content-style-form-textarea {
 	padding: 10px;
 	width: 100%;
-	border: 2px solid #999;
+	border: 1px solid #999;
 	background: transparent;
 	color: #666;
 	font-weight: 300;
