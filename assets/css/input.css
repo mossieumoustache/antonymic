@@ -1,0 +1,91 @@
+/* switch-antonymic */
+.switch-rotate-180 {
+    transform: rotate(180deg);
+}
+.switch-height{
+    height: 32px;
+}
+.switch-antonymic {
+    --line: #fff;
+    --dot: #fff;
+    --circle: #fff;
+    --duration: .3s;
+    --text: #fff;
+    cursor: pointer;
+}
+.switch-antonymic input {
+    display: none;
+}
+label {
+    margin: 0px !important;
+    margin-top: .4rem !important;
+}
+.switch-antonymic input + div {
+    position: relative;
+}
+.switch-antonymic input + div:before, .switch-antonymic input + div:after {
+    --s: 1;
+    content: '';
+    position: absolute;
+    height: 2px;
+    top: 5px;
+    width: 12px;
+    background: var(--line);
+    -webkit-transform: scaleX(var(--s));
+    transform: scaleX(var(--s));
+    -webkit-transition: -webkit-transform var(--duration) ease;
+    transition: -webkit-transform var(--duration) ease;
+    transition: transform var(--duration) ease;
+    transition: transform var(--duration) ease, -webkit-transform var(--duration) ease;
+}
+.switch-antonymic input + div:before {
+    --s: 0;
+    left: 0;
+    -webkit-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+    border-radius: 2px 0 0 2px;
+}
+.switch-antonymic input + div:after {
+    left: 14px;
+    -webkit-transform-origin: 100% 50%;
+    transform-origin: 100% 50%;
+    border-radius: 0 2px 2px 0;
+}
+.switch-antonymic input + div span {
+    padding-left: 56px;
+    line-height: 24px;
+    color: var(--text);
+}
+.switch-antonymic input + div span:before {
+    --x: 0;
+    --b: var(--circle);
+    --s: 2px;
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 var(--s) var(--b);
+    -webkit-transform: translateX(var(--x));
+    transform: translateX(var(--x));
+    -webkit-transition: box-shadow var(--duration) ease, -webkit-transform var(--duration) ease;
+    transition: box-shadow var(--duration) ease, -webkit-transform var(--duration) ease;
+    transition: box-shadow var(--duration) ease, transform var(--duration) ease;
+    transition: box-shadow var(--duration) ease, transform var(--duration) ease, -webkit-transform var(--duration) ease;
+}
+.switch-antonymic input + div span:not(:empty) {
+    padding-left: 64px;
+}
+.switch-antonymic input:checked + div:before {
+    --s: 1;
+}
+.switch-antonymic input:checked + div:after {
+    --s: 0;
+}
+.switch-antonymic input:checked + div span:before {
+    --x: 14px;
+    --s: 6px;
+    --b: var(--dot);
+}

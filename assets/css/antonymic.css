@@ -1,0 +1,198 @@
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	color: #fff;
+	font-family: 'Museo 500', serif;
+	/* saumon */
+	background: #EB3349;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #F45C43, #EB3349);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #F45C43, #EB3349); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	
+}
+
+.fill {
+	 flex: 1 0 auto;
+ }
+
+ .font-museo {
+	font-family: 'Museo 500', serif;
+}
+
+.font-museo-slab {
+   font-family: 'Museo Slab 500', serif;
+}
+
+.font-museo-sans {
+   font-family: 'Museo Sans 500', serif;
+}
+
+.font-museo-sans-italic {
+   font-family: 'Museo Sans Italic 500', serif;
+}
+
+.font-transparent {
+	color: transparent !important;
+}
+
+.fs-075 {
+	font-size: 0.75em;
+}
+
+.fs-125 {
+	font-size: 1.25em;
+}
+
+.fs-150 {
+	font-size: 1.5em;
+}
+
+.fs-175 {
+	font-size: 1.75em;
+}
+
+.fs-200 {
+	font-size: 2em;
+}
+
+.txt-dark-red {
+	color: #791a27;
+}
+
+.txt-light-red {
+	color: #EB3349;
+}
+
+.bg-dark-red {
+	background-color: #791a27;
+}
+
+.bg-light-red {
+	background-color: #EB3349;
+}
+
+.box-shadow {
+	-webkit-box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.2);
+}
+
+.text-shadow {
+	-webkit-text-shadow: 0px 0px 7px rgba(0,0,0,0.2);
+	-moz-text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.2);
+	text-shadow: 0px 0px 7px rgba(0,0,0,0.2);
+}
+
+.link-white {
+	color: white !important;
+}
+.link-white:hover {
+	text-decoration: none;
+	color: white !important;
+}
+.link-purple {
+	color: #791a27 !important;
+}
+.link-purple:hover {
+	text-decoration: none;
+	color: #791a27 !important;
+}
+
+.h-05 {
+	height: 5% !important;
+}
+.h-10 {
+	height: 10% !important;
+}
+.h-15 {
+	height: 15% !important;
+}
+.h-20 {
+	height: 20% !important;
+}
+.h-30 {
+	height: 30% !important;
+}
+.h-35 {
+	height: 35% !important;
+}
+.h-40 {
+	height: 40% !important;
+}
+.h-45 {
+	height: 45% !important;
+}
+.h-55 {
+	height: 55% !important;
+}
+.h-60 {
+	height: 60% !important;
+}
+.h-65 {
+	height: 65% !important;
+}
+.h-70 {
+	height: 70% !important;
+}
+.h-80 {
+	height: 80% !important;
+}
+.h-85 {
+	height: 85% !important;
+}
+.h-90 {
+	height: 90% !important;
+}
+.h-95 {
+	height: 95% !important;
+}
+.h-px-10 {
+	height: 10px !important;
+}
+
+.lang-antonymic {
+	position: absolute;
+	top: 20px;
+	left: 22px;
+	width: 100px;
+	z-index: 1000;
+}
+
+.speaking-antonymic {
+	position: absolute;
+	top: 22px;
+	right: 24px;
+	width: 200px;
+	z-index: 1000;
+}
+
+.logo-antonymic {
+	position: absolute;
+	margin: 0 auto;
+	top: 22px;
+	z-index: 1000;
+}
+
+.logo-prop {
+	width: 80px;
+}
+
+.typo-antonymic {
+	letter-spacing: 0.2em;
+}
+
+.social-btn {
+	position: absolute;
+	width: 72px;
+	height: 72px;
+	bottom: 22px;
+	left: 22px;
+}
+
+.footer-antonymic {
+	position: absolute;
+	margin: 0 auto;
+	bottom: 32px;
+	z-index: 1000;
+}

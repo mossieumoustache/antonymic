@@ -1,0 +1,190 @@
+.typo-nav {
+    letter-spacing: 0.1em;
+}
+.nav-wrapper-parent {
+  position: relative;
+  height: 100%;
+  z-index: 999;
+}
+.nav-wrapper-parent .nav-wrapper-child {
+  position: absolute;
+  top: 50%;
+  width: 300px;
+  height: 192px;
+  text-align: left;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+nav {
+    width: 0%;
+    height: 192px;
+    background: transparent;
+    position: relative;
+    left: 40px;
+    overflow: hidden;
+    transition: width 0.1s ease-in-out;
+  }
+  
+  nav.clicked {
+    width: 300px;
+  }
+  
+  nav>ul {
+    width: 260px;
+    height: 176px;
+    list-style: none;
+  }
+  
+  nav>ul>li>a {
+    box-sizing: border-box;
+    padding: 11px 22px;
+    width: 100%;
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    font-family: 'Museo 500', serif;
+    font-size: 34px;
+    font-weight: 900;
+  }
+  
+  nav>ul>li>a:hover {
+    text-decoration: none;
+  }
+  
+  #hamburger-button {
+    display: block;
+    width: 28px;
+    height: 20px;
+    position: relative;
+    top: 49%;
+    left: 22px;
+  }
+  
+  #hamburger-button>span {
+    position: absolute;
+    border-radius: 20px;
+    height: 20%;
+    background: #fff;
+    top: 0px;
+  }
+  
+  #hamburger-button>span:nth-child(1) {
+    width: 100%;
+    top: 0%;
+    transition: top 0.1s ease-in, width 0.1s ease 0.1s;
+  }
+  
+  #hamburger-button>span:nth-child(2) {
+    width: 95%;
+    top: 50%;
+    transition: all 0.1s ease-in;
+    transition-delay: 0.15s;
+  }
+  
+  #hamburger-button>span:nth-child(3) {
+    width: 95%;
+    top: 50%;
+    transition: all 0.1s ease-in;
+    transition-delay: 0.15s;
+  }
+  
+  #hamburger-button>span:nth-child(4) {
+    width: 70%;
+    top: 100%;
+    transition: top 0.1s ease-in, width 0.1s ease 0.1s;
+  }
+  
+  #hamburger-button.clicked>span:nth-child(1) {
+    top: 50%;
+    width: 0%;
+  }
+  
+  #hamburger-button.clicked>span:nth-child(2) {
+    top: 50%;
+    transform: rotate(-45deg);
+  }
+  
+  #hamburger-button.clicked>span:nth-child(3) {
+    top: 50%;
+    transform: rotate(45deg);
+  }
+  
+  #hamburger-button.clicked>span:nth-child(4) {
+    top: 50%;
+    width: 0%;
+  }
+  
+/* ------- NAV TXT FX ------- */
+.nav-txt {
+	outline: none;
+	text-decoration: none;
+	position: relative;
+	font-size: 2em;
+	line-height: 1;
+	color: #fff;
+	display: inline-block;
+}
+.nav-txt--fx {
+	color: #fff;
+	font-weight: 900;
+	text-transform: uppercase;
+	overflow: hidden;
+	padding: 10px 0;
+	margin-left: 20px;
+	-webkit-transition: color 0.3s;
+	transition: color 0.3s;
+}
+
+.nav-txt--fx:hover {
+	color: #fff;
+}
+
+.nav-txt--fx::before,
+.nav-txt--fx::after {
+	content: '';
+	position: absolute;
+	width: 20%;
+	height: 3px;
+	background: #fff;
+	bottom: 0;
+	left: 1%;
+	-webkit-transition: -webkit-transform 0.5s;
+	transition: transform 0.5s;
+	-webkit-transition-timing-function: cubic-bezier(0.2,1,0.3,1);
+	transition-timing-function: cubic-bezier(0.2,1,0.3,1);
+}
+
+.nav-txt--fx::after {
+	background: #791a27;
+	-webkit-transform: translate3d(-300%,0,0) scale3d(0,1,1);
+	transform: translate3d(-300%,0,0) scale3d(0,1,1);
+}
+
+.nav-txt--fx:hover::before {
+	-webkit-transform: translate3d(300%,0,0) scale3d(0,1,1);
+	transform: translate3d(300%,0,0) scale3d(0,1,1);
+}
+
+.nav-txt--fx:hover::after {
+	-webkit-transform: translate3d(0,0,0) scale3d(1,1,1);
+	transform: translate3d(0,0,0) scale3d(1,1,1);
+}
+
+.nav-txt--fx span {
+	color: #fff;
+	display: inline-block;
+	position: relative;
+	-webkit-transform: perspective(1000px) rotate3d(0,1,0,0deg);
+	transform: perspective(1000px) rotate3d(0,1,0,0deg);
+	-webkit-transition: -webkit-transform 0.5s, color 0.5s;
+	transition: transform 0.5s, color 0.5s;
+	-webkit-transition-timing-function: cubic-bezier(0.2,1,0.3,1);
+	transition-timing-function: cubic-bezier(0.2,1,0.3,1);
+}
+
+.nav-txt--fx:hover span {
+	color: #791a27;
+	-webkit-transform: perspective(1000px) rotate3d(0,1,0,180deg);
+	transform: perspective(1000px) rotate3d(0,1,0,180deg);
+}
+/* ------- END NAV TXT FX ------- */
