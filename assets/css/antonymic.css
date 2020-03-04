@@ -74,6 +74,20 @@ body {
 	box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.2);
 }
 
+.text-shadow {
+	-webkit-text-shadow: 0px 0px 7px rgba(0,0,0,0.2);
+	-moz-text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.2);
+	text-shadow: 0px 0px 7px rgba(0,0,0,0.2);
+}
+
+.link-white {
+	color: white !important;
+}
+.link-white:hover {
+	text-decoration: none;
+	color: white !important;
+}
+
 .h-05 {
 	height: 5% !important;
 }
@@ -124,4 +138,26 @@ body {
 }
 .h-px-10 {
 	height: 10px !important;
+}
+
+.logo-antonymic {
+	position: absolute;
+	margin: 0 auto;
+	top: 22px;
+}
+
+.logo-prop {
+	width: 80px;
+}
+
+.typo-antonymic {
+	letter-spacing: 0.2em;
+}
+
+.social-btn {
+	position: absolute;
+	width: 72px;
+	height: 72px;
+	bottom: 22px;
+	left: 22px;
 }
