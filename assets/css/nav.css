@@ -1,7 +1,7 @@
 .nav-wrapper-parent {
   position: relative;
   height: 100%;
-  z-index: 9000;
+  z-index: 999;
 }
 .nav-wrapper-parent .nav-wrapper-child {
   position: absolute;
