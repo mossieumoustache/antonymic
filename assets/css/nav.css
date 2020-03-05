@@ -2,8 +2,9 @@
     letter-spacing: 0.1em;
 }
 .nav-wrapper-parent {
-  position: relative;
+  position: absolute;
   height: 100%;
+  left: 0px;
   z-index: 999;
 }
 .nav-wrapper-parent .nav-wrapper-child {

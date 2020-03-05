@@ -204,3 +204,11 @@ body {
 .antonymic-welcome-slogan {
 	width: 500px;
 }
+
+.antonymic-3d-render {
+	z-index: 1100;
+}
+
+.antonymic-content {
+	z-index: 1099;
+}
