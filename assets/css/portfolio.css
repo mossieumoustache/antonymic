@@ -1,0 +1,48 @@
+body {
+	/* shifty */
+	background: #636363;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #a2ab58, #636363);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #a2ab58, #636363); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */	
+}
+
+/* COMMON */
+.link-purple {
+	color: #0f4837 !important;
+}
+.link-purple:hover {
+	text-decoration: none;
+	color: #0f4837 !important;
+}
+.bg-dark-red {
+	background-color: #114552;
+}
+.bg-light-red {
+    background-color: #134E5E;
+}
+.txt-light-red {
+    color: #134E5E;
+}
+.txt-dark-red {
+    color: #114552;
+}
+
+/* NAV */
+.nav-txt--fx:hover span {
+    color: #06191e;
+}
+
+.nav-txt--fx::after {
+    background: #06191e;
+}
+
+/* CONTACT */
+.morph-button-modal::before {
+	background: rgba(27,79,94,0.8);
+}
+.content-style-form button {
+    background: #134E5E;
+}
+.content-style-form input[type="text"]:focus, .content-style-form-textarea:focus {
+    border-color: #134E5E;
+    color: #134E5E;
+}
