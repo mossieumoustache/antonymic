@@ -283,14 +283,16 @@
 	font-weight: normal;
 	font-style: normal;
 	font-variant: normal;
-	font-family: 'icomoon';
+	font-family: 'Font Awesome 5 Pro';
 	speak: none;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
 
 .icon-close::before {
-	content: "\e601";
+	font-family: 'Font Awesome 5 Pro';
+	font-weight: 900;
+	content: "\f00d";
 }
 
 .icon-close {
