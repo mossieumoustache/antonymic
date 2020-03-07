@@ -12,18 +12,20 @@
 		<!-- <link href="./assets/css/bootstrap.min.css" rel="stylesheet"> -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-		<link href="./assets/css/normalize.css" rel="stylesheet">
+		<!--<link href="./assets/css/normalize.css" rel="stylesheet">-->
 		<link href="./assets/css/font-anto.css" rel="stylesheet">
 		<link href="./assets/css/nav.css" rel="stylesheet">
 		<link href="./assets/css/input.css" rel="stylesheet">
 		<link href="./assets/css/contact.css" rel="stylesheet">
 		<link href="./assets/css/3d.css" rel="stylesheet">
+		<link href="./assets/css/animsition.css" rel="stylesheet">
 		<link href="./assets/css/antonymic.css" rel="stylesheet">
 		<script src="./assets/js/modernizr.custom.js"></script>
 		<script defer src="./assets/js/all.js"></script>
 	</head>
 
 	<body>
+	<div class="animsition">
 		<!-- NAV -->
 		<div class="nav-wrapper-parent">
 			<div class="nav-wrapper-child">
@@ -32,12 +34,12 @@
 					<span></span>
 					<span></span>
 					<span></span>
-				</a>				  
+				</a>
 				<nav>
 					<ul>
-						<li><a class="nav-txt nav-txt--fx typo-nav" href="./team.html">U<span>S</span></a></li>
-						<li><a class="nav-txt nav-txt--fx typo-nav" href="./portfolio.html">PORT<span>F</span>OLIO</a></li>
-						<li><a class="nav-txt nav-txt--fx typo-nav" href="#">SE<span>R</span>VICES</a></li>
+						<li><a class="nav-txt nav-txt--fx typo-nav animsition-link" href="team.html">U<span>S</span></a></li>
+						<li><a class="nav-txt nav-txt--fx typo-nav animsition-link" href="portfolio.html">PORT<span>F</span>OLIO</a></li>
+						<li><a class="nav-txt nav-txt--fx typo-nav animsition-link" href="services.html">SE<span>R</span>VICES</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -101,9 +103,9 @@
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-12 d-flex justify-content-center">
-						<a class="" href="" target=""><img src="./assets/images/antonymic-logo-w.png" class="logo-prop"></a>
+						<a class="animsition-link" href="index.html" target=""><img src="./assets/images/antonymic-logo-w.png" class="logo-prop"></a>
 					</div>
-					<div class="col-12 d-flex justify-content-center fs-200 typo-antonymic text-shadow">ANTONYMIC</div>
+					<div class="col-12 d-flex justify-content-center fs-200 typo-antonymic text-shadow"><a class="animsition-link link-white" href="index.html" target="">ANTONYMIC</a></div>
 				</div>
 			</div>
 		</div>
@@ -131,21 +133,21 @@
 							</div>
 							<div class="col-auto p-0 antonymic-gutter"></div>
 						</div>
-					</div>					
+					</div>
 				</div>
 			</div>
 		</div>
 		<!-- CONTACT BTN -->
 		<div class="morph-button morph-button-modal morph-button-modal-antonymic morph-button-fixed mb-1">
-			<button type="button" class="fs-150 p-0"><i class="fas fa-envelope"></i></button>
+			<button type="button" class="fs-150 p-0 pointer"><i class="fas fa-envelope"></i></button>
 			<div class="morph-content box-shadow">
 				<div class="">
 					<div class="content-style-form content-style-form-antonymic">
-						
+
 						<span class="icon icon-close">Close the dialog</span>
 						<div class="container-fluid h-100">
 							<div class="row h-100">
-								<div class="col-7 p-0">									
+								<div class="col-7 p-0">
 									<h2 class="txt-light-red text-center text-uppercase typo-antonymic">Stay in touch</h2>
 									<form>
 										<p><label class="font-museo-sans font-weight-lighter">Your name</label><input type="text" /></p>
@@ -198,12 +200,17 @@
 		</div>
 		<!-- FOOTER -->
 		<div class="footer-antonymic">
-			<footer>
-				<span class="font-museo-sans font-weight-lighter fs-075">
-					2020 © All rights reserved. Designed by <a class="link-purple" href="" target="">Antonymic</a>
-				</span>
+			<footer class="container-fluid">
+				<div class="row">
+					<div class="col-12 d-flex justify-content-center">
+						<span class="font-museo-sans font-weight-lighter fs-075">
+							2020 © All rights reserved. Designed by <a class="link-purple animsition-link" href="" target="">Antonymic</a>
+						</span>
+					</div>
+				</div>
 			</footer>
 		</div>
+	</div>
 	</body>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -212,7 +219,11 @@
 	<script src="./assets/js/website.js"></script>
 	<script src="./assets/js/classie.js"></script>
 	<script src="./assets/js/uiMorphingButton_fixed.js"></script>
+	<script src="./assets/js/animsition.js"></script>
 	<script>
+		$(document).ready(function() {
+			$('.animsition').animsition();
+		});
 		(function() {
 			var docElem = window.document.documentElement, didScroll, scrollPosition;
 

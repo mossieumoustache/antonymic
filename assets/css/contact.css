@@ -160,6 +160,7 @@
 /* Colors and sizes for individual modals */
 .morph-button.morph-button-modal-antonymic {
 	display: inline-block;
+	z-index: 1001;
 }
 
 .morph-button-modal-antonymic > button,
@@ -291,7 +292,7 @@
 
 .icon-close::before {
 	font-family: 'Font Awesome 5 Pro';
-	font-weight: 900;
+	font-weight: 100;
 	content: "\f00d";
 }
 

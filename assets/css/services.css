@@ -1,0 +1,60 @@
+body {
+    /* yoda */
+    background: #FF0099;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #493240, #FF0099);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #493240, #FF0099); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+/* COMMON */
+.link-purple {
+    color: #5D2C4A !important;
+}
+
+.link-purple:hover {
+    text-decoration: none;
+    color: #5D2C4A !important;
+}
+
+.bg-dark-red {
+    background-color: #5D2C4A;
+}
+
+.bg-light-red {
+    background-color: #FF0099;
+}
+
+.txt-dark-red {
+    color: #5D2C4A;
+}
+
+.txt-light-red {
+    color: #FF0099;
+}
+
+/* NAV */
+.nav-txt--fx:hover span {
+    color: #766870;
+}
+
+.nav-txt--fx::after {
+    background: #766870;
+}
+
+/* CONTACT */
+.content-style-form .icon-close:hover {
+    color: #5D2C4A;
+}
+
+.morph-button-modal::before {
+    background: rgba(93,44,74,0.8);
+}
+
+.content-style-form button {
+    background: #FF0099;
+}
+
+.content-style-form input[type="text"]:focus, .content-style-form-textarea:focus {
+    border-color: #FF0099;
+    color: #FF0099;
+}
