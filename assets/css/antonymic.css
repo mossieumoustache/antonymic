@@ -107,6 +107,10 @@ body {
 	color: #791a27 !important;
 }
 
+.pointer {
+	cursor: pointer;
+}
+
 .h-05 {
 	height: 5% !important;
 }
@@ -164,7 +168,7 @@ body {
 	top: 20px;
 	left: 22px;
 	width: 100px;
-	z-index: 1000;
+	z-index: 1001;
 }
 
 .speaking-antonymic {
@@ -172,7 +176,7 @@ body {
 	top: 22px;
 	right: 24px;
 	width: 200px;
-	z-index: 1000;
+	z-index: 1001;
 }
 
 .logo-antonymic {
@@ -180,6 +184,7 @@ body {
 	margin: 0 auto;
 	top: 22px;
 	z-index: 1000;
+	width: 100vw;
 }
 
 .logo-prop {
@@ -198,6 +203,7 @@ body {
 	position: absolute;
 	margin: 0 auto;
 	bottom: 32px;
+	width: 100vw;
 	z-index: 1000;
 }
 
@@ -207,6 +213,7 @@ body {
 
 .antonymic-welcome-slogan {
 	width: 500px;
+	z-index: 1101;
 }
 
 .antonymic-3d-render {

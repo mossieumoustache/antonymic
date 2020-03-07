@@ -9,21 +9,26 @@ body {
 .link-purple {
 	color: #0f4837 !important;
 }
+
 .link-purple:hover {
 	text-decoration: none;
 	color: #0f4837 !important;
 }
+
 .bg-dark-red {
 	background-color: #114552;
 }
+
 .bg-light-red {
     background-color: #134E5E;
 }
-.txt-light-red {
-    color: #134E5E;
-}
+
 .txt-dark-red {
     color: #114552;
+}
+
+.txt-light-red {
+    color: #134E5E;
 }
 
 /* NAV */
@@ -36,12 +41,18 @@ body {
 }
 
 /* CONTACT */
+.content-style-form .icon-close:hover {
+    color: #06191e;
+}
+
 .morph-button-modal::before {
 	background: rgba(27,79,94,0.8);
 }
+
 .content-style-form button {
     background: #134E5E;
 }
+
 .content-style-form input[type="text"]:focus, .content-style-form-textarea:focus {
     border-color: #134E5E;
     color: #134E5E;
