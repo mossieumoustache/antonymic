@@ -37,7 +37,7 @@
 				</a>
 				<nav>
 					<ul>
-						<li><a class="nav-txt nav-txt--fx typo-nav animsition-link" href="team.html">U<span>S</span></a></li>
+						<li><a class="nav-txt nav-txt--fx typo-nav animsition-link" href="team.html">T<span>E</span>AM</a></li>
 						<li><a class="nav-txt nav-txt--fx typo-nav animsition-link" href="portfolio.html">PORT<span>F</span>OLIO</a></li>
 						<li><a class="nav-txt nav-txt--fx typo-nav animsition-link" href="services.html">SE<span>R</span>VICES</a></li>
 					</ul>
@@ -46,30 +46,32 @@
 		</div>
 		<!-- LANG -->
 		<div class="lang-antonymic">
-			<div class="container-fluid">
-				<div class="row switch-height">
-					<div class="col-2 p-0">En</div>
-					<div class="col-10 p-0">
-						<label class="switch-antonymic switch-rotate-180">
-							<input type="radio" name="lang" checked>
-							<div>
-								<span class="d-flex justify-content-end"></span>
-							</div>
-						</label>
+			<form>
+				<div class="container-fluid">
+					<div class="row switch-height">
+						<div class="col-2 p-0">En</div>
+						<div class="col-10 p-0">
+							<label class="switch-antonymic switch-rotate-180">
+								<input type="radio" name="lang" value="en" checked>
+								<div>
+									<span class="d-flex justify-content-end"></span>
+								</div>
+							</label>
+						</div>
+					</div>
+					<div class="row switch-height">
+						<div class="col-2 p-0">Fr</div>
+						<div class="col-10 p-0">
+							<label class="switch-antonymic switch-rotate-180">
+								<input type="radio" name="lang" value="fr">
+								<div>
+									<span class="d-flex justify-content-end"></span>
+								</div>
+							</label>
+						</div>
 					</div>
 				</div>
-				<div class="row switch-height">
-					<div class="col-2 p-0">Fr</div>
-					<div class="col-10 p-0">
-						<label class="switch-antonymic switch-rotate-180">
-							<input type="radio" name="lang">
-							<div>
-								<span class="d-flex justify-content-end"></span>
-							</div>
-						</label>
-					</div>
-				</div>
-			</div>
+			</form>
 		</div>
 		<!-- SPEAK -->
 		<div class="speaking-antonymic">
@@ -83,7 +85,7 @@
 							</div>
 						</label>
 					</div>
-					<div class="col-4 p-0">Gentle</div>
+					<div class="col-4 p-0" data-i18n="speak.$0">Gentle</div>
 				</div>
 				<div class="row switch-height">
 					<div class="col-8 p-0">
@@ -94,7 +96,7 @@
 							</div>
 						</label>
 					</div>
-					<div class="col-4 p-0">Friendly</div>
+					<div class="col-4 p-0" data-i18n="speak.$1">Friendly</div>
 				</div>
 			</div>
 		</div>
@@ -123,10 +125,10 @@
 								<div class="container-fluid p-0 fs-125">
 									<div class="row  align-items-center">
 										<div class="col-12 text-right pt-3">
-											<span class="fs-175">FREE UP YOUR<br>DIGITAL COMMUNICATION</span>
+											<span class="fs-175" data-i18n="slogan">FREE UP YOUR<br>DIGITAL COMMUNICATION</span>
 										</div>
 										<div class="col-12 text-right pt-3">
-											<span class="font-museo-sans font-weight-light">we create a </span><span class="font-museo-sans-italic txt-dark-red">brand face</span><span class="font-weight-light font-museo-sans"> and </span><span class="font-museo-sans-italic txt-dark-red">branding weapon</span><br><span class="font-museo-sans font-weight-light"></span>by using our unique approach.</span>
+											<span class="font-museo-sans font-weight-light" data-i18n="sloganDesc.$0">we create a </span><span class="font-museo-sans-italic txt-dark-red" data-i18n="sloganDesc.$1">brand face</span><span class="font-weight-light font-museo-sans" data-i18n="sloganDesc.$2"> and </span><span class="font-museo-sans-italic txt-dark-red" data-i18n="sloganDesc.$3">branding weapon</span><br><span class="font-museo-sans font-weight-light" data-i18n="sloganDesc.$4">by using our unique approach.</span>
 										</div>
 									</div>
 								</div>
@@ -144,17 +146,17 @@
 				<div class="">
 					<div class="content-style-form content-style-form-antonymic">
 
-						<span class="icon icon-close">Close the dialog</span>
+						<span class="icon icon-close" data-i18n="contact.$0">Close the dialog</span>
 						<div class="container-fluid h-100">
 							<div class="row h-100">
 								<div class="col-7 p-0">
-									<h2 class="txt-light-red text-center text-uppercase typo-antonymic">Stay in touch</h2>
+									<h2 class="txt-light-red text-center text-uppercase typo-antonymic" data-i18n="contact.$1">Stay in touch</h2>
 									<form>
-										<p><label class="font-museo-sans font-weight-lighter">Your name</label><input type="text" /></p>
-										<p><label class="font-museo-sans font-weight-lighter">Your mail</label><input type="text" /></p>
-										<p><label class="font-museo-sans font-weight-lighter">Your subject</label><input type="text" /></p>
-										<p class="pt-4"><label class="font-museo-sans font-weight-lighter"></label><textarea placeholder="Share your needs with US !" rows="3" class="content-style-form-textarea"></textarea></p>
-										<p><button>send</button></p>
+										<p><label class="font-museo-sans font-weight-lighter" data-i18n="contact.$2">Your name</label><input type="text" /></p>
+										<p><label class="font-museo-sans font-weight-lighter" data-i18n="contact.$3">Your mail</label><input type="text" /></p>
+										<p><label class="font-museo-sans font-weight-lighter" data-i18n="contact.$4">Your subject</label><input type="text" /></p>
+										<p class="pt-4"><label class="font-museo-sans font-weight-lighter"></label><textarea data-i18n="contact.$5" placeholder="Share your needs with US !" rows="3" class="content-style-form-textarea"></textarea></p>
+										<p><button data-i18n="contact.$6">send</button></p>
 									</form>
 								</div>
 								<div class="col-5 p-0">
@@ -203,8 +205,11 @@
 			<footer class="container-fluid">
 				<div class="row">
 					<div class="col-12 d-flex justify-content-center">
+						<span class="font-museo-sans font-weight-lighter fs-075" data-i18n="copyright">
+							2020 © All rights reserved. Designed by&nbsp;
+						</span>
 						<span class="font-museo-sans font-weight-lighter fs-075">
-							2020 © All rights reserved. Designed by <a class="link-purple animsition-link" href="" target="">Antonymic</a>
+							<a class="link-purple animsition-link" href="" target="">Antonymic</a>
 						</span>
 					</div>
 				</div>
@@ -217,7 +222,7 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-	<script src="./assets/js/website.js"></script>
+	<script type="module" src="./assets/js/website.js"></script>
 	<script src="./assets/js/classie.js"></script>
 	<script src="./assets/js/uiMorphingButton_fixed.js"></script>
 	<script src="./assets/js/animsition.js"></script>

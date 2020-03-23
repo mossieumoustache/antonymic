@@ -1,10 +1,34 @@
 {
-		"jquery-sls is a jQuery language plugin":"jquery-sls bir jQuery dil eklentisidir",	
-		"This plugin supports dynamic language switching with multiple languages, dynamic language loading with json format and persistence.":"Bu eklenti dinamik biçimde dil değiştirmeyi, birden çok dili, dilleri json formatında dinamik olarak yüklemeyi ve kalıcı dil seçimini destekler.",	
-		"Select language:":"Dil Seçiniz:",
-		"link":"bağlantı",
-		"This is a <a href=\"#\" title=\"link\" alt=\"link\">link</a>":"Bu bir <a href=\"#\" title=\"bağlantı\" alt=\"bağlantı\">bağlantıdır</a>",
-		"Submit Button":"Gönder Butonu",
-		"This is a dynamic text":"Bu dinamik bir metin",
-		"<p lang=\"en\">This is a dynamic text</p>":"<p lang=\"tr\">Bu dinamik bir metin</p>"
+	"slogan": "LIB&#201;REZ VOTRE<br>COMMUNICATION DIGITALE",
+	"sloganDesc": {
+		"$0": "nous cr&#233;ons une ",
+		"$1": "image de marque",
+		"$2": " et ",
+		"$3": "une arme",
+		"$4": " en utilisant notre approche unique."
+	},
+	"speak": {
+		"$0": "&#201;l&#233;gant",
+		"$1": "Amical"
+	},
+	"contact": {
+		"$0": "Fermez cette boite de dialogue",
+		"$1": "Restons en contact",
+		"$2": "Votre nom",
+		"$3": "Votre mail",
+		"$4": "Votre demande",
+		"$5": "Partagez vos besoins avec NOUS !",
+		"$6": "envoyer"
+	},
+	"contentTeamSlogan": {
+		"$0": "&nbsp;est un studio graphique et num&#233;rique innovant qui con&#231;oit et d&#233;veloppe des identit&#233;s uniques de marque et des solutions num&#233;riques sur mesure.",
+		"$1": "Nous d&#233;veloppons&nbsp;",
+		"$2": "l'image de la marque",
+		"$3": "les produits",
+		"$4": "&nbsp;et&nbsp;",
+		"$5": "les exp&#233;riences num&#233;riques",
+		"$6": "<br>&nbsp;qui <span class=\"font-museo-sans-italic text-uppercase text-underline\">vous</span> rep&#233;sente",
+		"$7": "<span class=\"d-none\"></span>"
+	},
+	"copyright": "2020 © Tous droits r&#233;serv&#233;s. R&#233;alis&#233; par&nbsp;"
 }
