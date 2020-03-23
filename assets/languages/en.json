@@ -1,10 +1,34 @@
 {
-		"jquery-sls is a jQuery language plugin":"jquery-sls ist ein jQuery sprach plugin.",	
-		"This plugin supports dynamic language switching with multiple languages, dynamic language loading with json format and persistence.":"Dieses Plugin unterstützt dynamische Sprachumschaltung mit mehreren Sprachen, dynamisches Laden von Sprachen mit JSON-Format und Persistenz.",	
-		"Select language:":"Sprache auswählen:",
-		"link":"link",
-		"This is a <a href=\"#\" title=\"link\" alt=\"link\">link</a>":"Dies ist ein <a href=\"#\" title=\"Link\" alt=\"Link\">Link</a>",
-		"Submit Button":"Schaltfläche Senden",
-		"This is a dynamic text":"Dies ist ein dynamischer Text",
-		"<p lang=\"en\">This is a dynamic text</p>":"<p lang=\"de\">Dies ist ein dynamischer Text</p>"
+	"slogan": "FREE UP YOUR<br>DIGITAL COMMUNICATION",
+	"sloganDesc": {
+		"$0": "we create a ",
+		"$1": "brand face",
+		"$2": " and ",
+		"$3": "branding weapon",
+		"$4": " by using our unique approach."
+	},
+	"speak": {
+		"$0": "Gentle",
+		"$1": "Friendly"
+	},
+	"contact": {
+		"$0": "Close the dialog",
+		"$1": "Stay in touch",
+		"$2": "Your name",
+		"$3": "Your mail",
+		"$4": "Your subject",
+		"$5": "Share your needs with US !",
+		"$6": "send"
+	},
+	"contentTeamSlogan": {
+		"$0": "&nbsp;is an innovative graphic and digital studio that designs and develops unique BRAND identities and tailor made digital solutions.",
+		"$1": "We build&nbsp;",
+		"$2": "digital brands",
+		"$3": "products",
+		"$4": "&nbsp;and&nbsp;",
+		"$5": "experiences",
+		"$6": "&nbsp;that represent&nbsp;",
+		"$7": "you"
+	},
+	"copyright": "2020 © All rights reserved. Designed by&nbsp;"
 }
