@@ -160,7 +160,7 @@
 /* Colors and sizes for individual modals */
 .morph-button.morph-button-modal-antonymic {
 	display: inline-block;
-	z-index: 1001;
+	z-index: 1101;
 }
 
 .morph-button-modal-antonymic > button,
