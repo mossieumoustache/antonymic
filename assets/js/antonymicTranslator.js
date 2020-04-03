@@ -77,7 +77,7 @@ class Translator {
             persist: false,
             languages: ["en"],
             defaultLanguage: "en",
-            filesLocation: "/assets/languages"
+            filesLocation: "/antonymic/assets/languages"
         };
     }
 }
