@@ -15,7 +15,7 @@ var translator = new Translator({
     persist: false,
     languages: ["en", "fr"],
     defaultLanguage: "en",
-    detectLanguage: true,
+    detectLanguage: false,
     // filesLocation: "/antonymic/assets/languages" //for dev on antonymic
     filesLocation: "/assets/languages" //for localhost dev
 });
