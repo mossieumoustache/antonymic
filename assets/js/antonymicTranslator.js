@@ -1,4 +1,5 @@
 class Translator {
+
     constructor(options = {}) {
         this._options = Object.assign({}, this.defaultConfig, options);
         this._lang = this.getLanguage();
@@ -24,6 +25,9 @@ class Translator {
     }
 
     load(lang = null) {
+
+        var speak = document.querySelector('input[name="speak"]').value;
+
         if (lang) {
             if (!this._options.languages.includes(lang)) {
                 return;
@@ -32,7 +36,13 @@ class Translator {
             this._lang = lang;
         }
 
-        var path = `${this._options.filesLocation}/${this._lang}.json`;
+        if (speak !='1') {
+            var path = `${this._options.filesLocation}/${this._lang}2.json`;
+        }
+        else {
+            var path = `${this._options.filesLocation}/${this._lang}.json`;
+        }
+
 
         fetch(path)
             .then(res => res.json())
@@ -70,6 +80,7 @@ class Translator {
         }
 
         this._elements.forEach(replace);
+        Cookies.set('langAndSpeak', this._lang);
     }
 
     get defaultConfig() {

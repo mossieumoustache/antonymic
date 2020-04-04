@@ -75,30 +75,32 @@
 		</div>
 		<!-- SPEAK -->
 		<div class="speaking-antonymic">
-			<div class="container-fluid text-right">
-				<div class="row switch-height">
-					<div class="col-8 p-0">
-						<label class="switch-antonymic">
-							<input type="radio" name="speak" checked>
-							<div>
-								<span></span>
-							</div>
-						</label>
-					</div>
-					<div class="col-4 p-0" data-i18n="speak.$0">Gentle</div>
-				</div>
-				<div class="row switch-height">
-					<div class="col-8 p-0">
-						<label class="switch-antonymic">
-							<input type="radio" name="speak">
-							<div>
-								<span></span>
-							</div>
-						</label>
-					</div>
-					<div class="col-4 p-0" data-i18n="speak.$1">Friendly</div>
-				</div>
-			</div>
+            <form>
+                <div class="container-fluid text-right">
+                    <div class="row switch-height">
+                        <div class="col-8 p-0">
+                            <label class="switch-antonymic">
+                                <input type="radio" name="speak" value="1" checked>
+                                <div>
+                                    <span></span>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="col-4 p-0" data-i18n="speak.$0">Gentle</div>
+                    </div>
+                    <div class="row switch-height">
+                        <div class="col-8 p-0">
+                            <label class="switch-antonymic">
+                                <input type="radio" name="speak" value="2">
+                                <div>
+                                    <span></span>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="col-4 p-0" data-i18n="speak.$1">Friendly</div>
+                    </div>
+                </div>
+            </form>
 		</div>
 		<!-- LOGO -->
 		<div class="logo-antonymic">
@@ -226,7 +228,7 @@
 	<script src="./assets/js/classie.js"></script>
 	<script src="./assets/js/uiMorphingButton_fixed.js"></script>
 	<script src="./assets/js/animsition.js"></script>
-	<script src="./assets/js/jquery-sls.js"></script>
+    <script type="module" src="./assets/js/js.cookie.min.js"></script>
 	<script>
 		$(document).ready(function() {
 			$('.animsition').animsition();
