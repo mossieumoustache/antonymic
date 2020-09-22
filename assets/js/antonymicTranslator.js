@@ -2,6 +2,7 @@ class Translator {
     constructor(options = {}) {
         this._options = Object.assign({}, this.defaultConfig, options);
         this._lang = this.getLanguage();
+        this._variant = this._options.variant;
         this._elements = document.querySelectorAll("[data-i18n]");
     }
 
@@ -23,7 +24,7 @@ class Translator {
         return lang.substr(0, 2);
     }
 
-    load(lang = null) {
+    load(lang = null, variant = null) {
         if (lang) {
             if (!this._options.languages.includes(lang)) {
                 return;
@@ -32,7 +33,15 @@ class Translator {
             this._lang = lang;
         }
 
-        var path = `${this._options.filesLocation}/${this._lang}.json`;
+        if (variant) {
+            if (!this._options.variants.includes(variant)) {
+                return;
+            }
+
+            this._variant = variant;
+        }
+
+        var path = `${this._options.filesLocation}/${this._lang}-${this._variant}`;
 
         fetch(path)
             .then(res => res.json())
@@ -74,6 +83,8 @@ class Translator {
 
     get defaultConfig() {
         return {
+            variant: "gentle",
+            variants: ["gentle", "friendly"],
             persist: false,
             languages: ["en"],
             defaultLanguage: "en",
